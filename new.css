@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+}
+.cal{
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(to bottom,rgb(82, 82, 82), rgb(1, 1, 1),rgb(75, 74, 74));
+    border-radius: 20px;
+}
+#inp{
+    width: 350px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    pointer-events: none;
+    font-size: 60px;
+    font-style: normal;
+}
+.row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly
+}
+button{
+    width: 72px;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.clear{
+    width: 150px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
